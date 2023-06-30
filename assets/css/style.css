@@ -10,7 +10,7 @@
 
 :root {
   --hue: 90;
-  --primary-color:#eb0c0c;
+  --primary-color:#cc0e0e;
   --primary-hover: hsl(var(--hue), 92%, 33%);
   --secundary-color: hsl(0, 0%, 100%);
   --third-color: hsla(0, 0%, 100%, 0.1);
@@ -44,15 +44,7 @@ body {
   background-color: var(--bg-color);
 }
 
-body.light-mode {
-  --secundary-color: rgb(229, 229, 229);
-  --third-color: hwb(0 48% 52% / 0.356);
-  --bg-color: rgb(241, 241, 241);
 
-  --headline: hsl(0, 0%, 0%);
-  --paragraph: rgb(32, 32, 32);
-  --paragraph-2: hsl(calc(var(--hue) + 10), 14%, 3%);
-}
 
 ::-webkit-scrollbar {
   width: 0.8rem;
